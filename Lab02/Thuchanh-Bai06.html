@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thông tin người dùng</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table width="80%">
+            <h3 style="font-size: 30px;">Đăng ký thông tin người sử dụng</h3>
+            <tr>
+                <td style="font-weight: bolder;">Tên đăng nhập</td>
+                <td><input type="text" name="userName" id="userName" size="30"></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">Mật khẩu</td>
+                <td><input type="password" name="pass" id="pass" size="30"></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">Nhập Lại Mật khẩu</td>
+                <td><input type="password" name="pass" id="pass" size="30"></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">Email</td>
+                <td><input type="email" name="email" id="email" size="30"></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">Giới tính</td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="1"/>
+                    <label for="male">Nam</label>
+                    <input type="radio" name="gender" id="female" value="0"/>
+                    <label for="male">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">Độ Tuổi</td>
+                <td>
+                    <input type="radio" name="age" id="13" value="0"/>
+                    <label for="13">Dưới 13 tuổi</label>
+                    <input type="radio" name="age" id="13-17" value="0"/>
+                    <label for="13-17">Từ 13 đến 17 tuổi</label>
+                    <input type="radio" name="age" id="18-25" value="0"/>
+                    <label for="18-25">Từ 18 đến 25 tuổi</label>
+                    <input type="radio" name="age" id="25" value="0"/>
+                    <label for="25">Trên 25 tuổi</label>
+                </td>
+            </tr>
+            <tr></tr>
+                <td style="font-weight: bolder;">Sở thích của bạn</td>
+                <td>
+                    <input type="checkbox" name="amnhac" id="bongda"/>
+                    <label for="bongda">Âm nhạc</label>
+                    <input type="checkbox" name="game" id="game"/>
+                    <label for="xemphim">Game</label>
+                    <input type="checkbox" name="thethao" id="thethao"/>
+                    <label for="dulich">Thể thao</label>
+                    <input type="checkbox" name="dulich" id="dulich"/>
+                    <label for="boi">Du lịch</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight:bolder;">Nghề nghiệp</td>
+                <td>
+                    <select name="province" id="province">
+                        <option value="">---Chọn ngành nghề---</option>
+                        <option value="">IT</option>
+                        <option value="">Cảnh Sát</option>
+                        <option value="">Bác Sĩ</option>
+                        <option value="">Thợ Xây</option>
+                        <option value="">Tỷ phú</option>
+                        <option value="">Ăn Bám</option>
+                        <option value="">Cướp</option>
+                        <option value="">Nội Trợ</option>
+                        <option value="">Sống</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">Mô tả ngắn</td>
+                <td>
+                    <textarea name="description" id="description" cols="40" rows="5">Mô tả về bản thân bạn....</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Đăng Ký" name="register">
+                    <input type="reset" value="Làm Lại" name="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
