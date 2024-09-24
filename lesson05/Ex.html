@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style>
+        header,section{
+            margin: 1rem;
+            border: 1px solid green;
+        }
+        .div-item{
+            margin: .5rem;
+            background-color: gray;
+        }
+        #zone1{
+            min-height: 100px;
+            background-color: cyan;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #zone1{
+            position: relative;
+        }
+        .price{
+            background-color: red;
+            color: yellow;
+            height: 50px;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-bottom-left-radius: 75%;
+            opacity: .75;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>display:</h1>
+    </header>
+    <section id="zone1">
+        <div class="div-item">item1</div>
+        <div class="div-item">item2</div>
+        <div class="div-item">item3</div>
+        <div class="div-item">item4</div>
+        <div class="div-item">item5</div>
+        <div class="div-item">item5</div>
+        <div class="div-item">item5</div>
+        <div class="price">50%</div>
+    </section>
+</body>
+
+</html>

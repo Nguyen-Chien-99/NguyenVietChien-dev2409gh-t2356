@@ -1,0 +1,10 @@
+làm việc với css
+-nhúng css vào html
+    +style inline : phạm vi sử dụng với thẻ html hiện tại
+    +tag style: phạm vi sử dụng trên toàn bộ trang html
+    +external style(file.css):phạm vi sử dụng trên toàn bộ site
+        ++ nhúng fike css bằng link (hoặc inport)
+-bộ chọn:
+    +bộ chọn phần tử: html, body, h1, ...
+    +bộ chọn id: #id (ví dụ: #zone1, ...)
+    +bộ chọn class : (ví dụ .zone1, ...)

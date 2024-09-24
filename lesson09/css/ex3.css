@@ -1,0 +1,35 @@
+body{
+    background-color: #ccc;
+}
+/* // Example
+// Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        background-color: red;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+        background-color: rgb(255, 0, 255);
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body{
+        background-color: blue;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    body{
+        background-color: green;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    body{
+        background-color: yellow;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1919.98px) {
+    body{
+        background-color: orange;
+    }
+}
