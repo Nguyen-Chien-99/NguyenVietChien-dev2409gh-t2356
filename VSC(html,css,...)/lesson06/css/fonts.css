@@ -1,0 +1,12 @@
+@font-face{
+    font-family: Gotham-UltraItalic;
+    src: url("../fonts/Gotham-UltraItalic.otf")
+}
+@font-face{
+    font-family: Gotham-Medium;
+    src: url("../fonts/GothamMedium.ttf")
+}
+@font-face{
+    font-family: Gotham-Thin;
+    src: url("../fonts/Gotham-Thin.otf")
+}

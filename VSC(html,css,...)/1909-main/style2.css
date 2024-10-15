@@ -1,0 +1,431 @@
+.home-banner {
+    background-image: url(../images/anhcat/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem 10% 16rem 10%;
+}
+
+.home-contact__content {
+    padding-left: 2rem;
+}
+
+.home-banner__content h1 {
+    font-family: Gotham-Ultra;
+    text-transform: uppercase;
+    color: #2c2e53;
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.home-banner__content span {
+    font-family: Gotham-Ultra;
+    color: #bd945f;
+}
+
+.home-banner__content p {
+    max-width: 30rem;
+    margin-bottom: 0.75rem;
+}
+.home-banner__btn {
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #bd945f;
+    border: 0.2rem solid #bd945f;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 1rem;
+}
+.home-banner__btn a {
+    text-decoration: none;
+    color: #ffffff; /* Màu chữ mặc định */
+    transition: color 0.3s ease; /* Chuyển đổi màu chữ */
+}
+
+.home-banner__btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #ffffff 100%, transparent 50%);
+    transition: left 0.3s ease; /* Hiệu ứng di chuyển từ trái sang phải */
+    z-index: 0; /* Đảm bảo rằng nền ở phía sau chữ */
+}
+
+.home-banner__btn:hover::before {
+    left: 0; /* Di chuyển nền từ trái sang phải khi hover */
+}
+
+.home-banner__btn:hover a {
+    color: #bd945f;
+}
+
+.home-banner__btn a {
+    position: relative;
+}
+
+.home-category {
+    background-color: #f3f3f3;
+    padding: 0 10%;
+}
+
+.list-category {
+    background-color: #fff;
+    position: relative;
+    top: -3rem;
+    padding: 0rem 3rem;
+}
+
+.list-category p {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-family: Gotham-Ultra;
+    color: #2c2e53;
+    text-decoration: none;
+}
+
+.list-category img {
+    display: block;
+    margin: 0 auto;
+    width: 10rem;
+}
+
+.slide-product {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.list-category .row:first-child .col-md-3 {
+    margin: 1rem 0;
+}
+
+.slide-product h4 {
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    color: var(--color);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.home-aboutUs {
+    background-image: url(/images/anhcat/bg-about-us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 2rem;
+    padding: 0 10%;
+
+}
+
+#home-aboutUs:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.home-aboutUs__content {
+    text-align: center;
+}
+
+.home-aboutUs__content h4 {
+    color: #fff;
+    padding-top: 3rem;
+    text-transform: uppercase;
+}
+
+.home-aboutUs__content p:first-child {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.home-aboutUs__content span {
+    font-family: Gotham-Ultra;
+}
+
+.home-aboutUs__content p {
+    text-align: justify;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.home-aboutUs__content .list-img ul {
+    margin: 0;
+    width: 100%;
+    list-style: none;
+}
+
+.home-aboutUs__content .list-img ul li {
+    width: calc(25% - 0.5rem);
+}
+
+.home-aboutUs .list-img .box .see-more {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-aboutUs .list-img .box {
+    overflow: hidden;
+    position: relative;
+}
+
+.home-aboutUs .list-img .box .see-more a {
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    color: var(--color);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.home-aboutUs__content h4 {
+    color: #fff;
+    padding-top: 3rem;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    color: var(--color);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.aboutUs-policy__item {
+    background-color: #fff;
+    height: 7.5rem;
+    margin-bottom: 2rem;
+}
+
+.aboutUs-policy__item .img {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 2rem;
+}
+
+.aboutUs-policy__item .content {
+    padding: 1.5rem;
+}
+
+.aboutUs-policy__item .content .title {
+    color: #bd945f;
+    font-family: Gotham-Ultra;
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.aboutUs-policy__item .content .desc {
+    font-size: 1rem;
+    color: #000;
+    margin: 0;
+}
+
+.aboutUs-policy__item img {
+    width: 4.5rem !important;
+}
+
+.home-news {
+    padding-top: 3rem;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.home-news h4 {
+    color: #fff;
+    padding-top: 3rem;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    color: var(--color);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.home-news .box {
+    position: relative;
+}
+
+.fix-height {
+    margin-bottom: 2rem;
+}
+
+.home-news .img-list {
+    height: 8.5rem;
+}
+
+.home-news__effect .img {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.home-news img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-news .title {
+    margin-bottom: 0.5rem;
+    text-align: justify;
+}
+
+.home-news .title a {
+    font-size: 1rem;
+    color: #bd945f;
+}
+
+.home-news .desc {
+    font-family: Gotham-Thin;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.home-news .box {
+    position: relative;
+}
+
+.fix-height {
+    margin-bottom: 2rem;
+}
+
+.home-news p {
+    font-size: 0.8rem;
+    margin: 0;
+    color: #000;
+}
+
+.home-news .main-content p:first-child {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.home-news .main-content {
+    background-color: #bd945f;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    padding: 1.5rem;
+    text-align: justify;
+}
+
+.home-news .img-main {
+    height: 33rem;
+}
+
+.home-partner {
+    padding: 0 10%;
+    margin: 3rem auto 0 auto;
+    text-align: center;
+}
+
+.home-partner h4 {
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    color: var(--color);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.slick-prev {
+    transform: translateX(-100%);
+    left: 0;
+}
+
+.slick-next {
+    transform: translateX(100%);
+    right: 0;
+}
+
+.home-contact {
+    margin-top: 4rem;
+    padding: 4rem 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/anhcat/lienhe-bg.jpg);
+}
+
+.home-contact .row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-contact .image {
+    width: 10rem;
+    position: absolute;
+    top: -5rem;
+    left: 1rem;
+}
+
+.home-contact__content {
+    color: #fff;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 0 0 0 12rem;
+}
+
+.home-contact__form p {
+    margin: 0;
+    color: #fff;
+}
+
+.home-contact__form input {
+    border: 0.2rem solid #fff;
+    padding: 0.6rem 1.5rem;
+    width: 18rem;
+    font-size: 0.8rem;
+}
+
+.home-contact__form button {
+    margin: 0.6rem;
+    background: #fff;
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    color: var(--color);
+    border: 0.2rem solid #fff;
+}
+
+.home-contact .image {
+    width: 10rem;
+    position: absolute;
+    top: -5rem;
+    left: 1rem;
+}
