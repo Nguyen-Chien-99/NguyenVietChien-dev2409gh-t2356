@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lab2-PhanII-Bai2.7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58422479-2884-4FDC-9555-D0704166709C}|Lab2-PhanII-Bai2.7\\Lab2-PhanII-Bai2.7.csproj|d:\\dev2409gh-t2356\\nguyenvietchien-dev2409gh-t2356\\c#\\lab2-phanii-bai2.7\\lab2-phanii-bai2.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58422479-2884-4FDC-9555-D0704166709C}|Lab2-PhanII-Bai2.7\\Lab2-PhanII-Bai2.7.csproj|solutionrelative:lab2-phanii-bai2.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lab2-PhanII-Bai2.7\\Lab2-PhanII-Bai2.7\\Program.cs",
+              "RelativeDocumentMoniker": "Lab2-PhanII-Bai2.7\\Program.cs",
+              "ToolTip": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lab2-PhanII-Bai2.7\\Lab2-PhanII-Bai2.7\\Program.cs",
+              "RelativeToolTip": "Lab2-PhanII-Bai2.7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:08:38.214Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

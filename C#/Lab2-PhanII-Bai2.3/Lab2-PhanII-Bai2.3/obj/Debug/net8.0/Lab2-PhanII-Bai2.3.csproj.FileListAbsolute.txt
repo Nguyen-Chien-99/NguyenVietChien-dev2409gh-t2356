@@ -1,0 +1,14 @@
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\bin\Debug\net8.0\Lab2-PhanII-Bai2.3.exe
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\bin\Debug\net8.0\Lab2-PhanII-Bai2.3.deps.json
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\bin\Debug\net8.0\Lab2-PhanII-Bai2.3.runtimeconfig.json
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\bin\Debug\net8.0\Lab2-PhanII-Bai2.3.dll
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\bin\Debug\net8.0\Lab2-PhanII-Bai2.3.pdb
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\obj\Debug\net8.0\Lab2-PhanII-Bai2.3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\obj\Debug\net8.0\Lab2-PhanII-Bai2.3.AssemblyInfoInputs.cache
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\obj\Debug\net8.0\Lab2-PhanII-Bai2.3.AssemblyInfo.cs
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\obj\Debug\net8.0\Lab2-PhanII-Bai2.3.csproj.CoreCompileInputs.cache
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\obj\Debug\net8.0\Lab2-PhanII-Bai2.3.dll
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\obj\Debug\net8.0\refint\Lab2-PhanII-Bai2.3.dll
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\obj\Debug\net8.0\Lab2-PhanII-Bai2.3.pdb
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\obj\Debug\net8.0\Lab2-PhanII-Bai2.3.genruntimeconfig.cache
+C:\Users\DELL 7490\source\repos\Lab2-PhanII-Bai2.3\Lab2-PhanII-Bai2.3\obj\Debug\net8.0\ref\Lab2-PhanII-Bai2.3.dll

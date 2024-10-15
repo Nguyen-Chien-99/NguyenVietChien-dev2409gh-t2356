@@ -1,0 +1,15 @@
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\bin\Debug\net8.0\Lab2-PhanII-Bai2.5.exe
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\bin\Debug\net8.0\Lab2-PhanII-Bai2.5.deps.json
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\bin\Debug\net8.0\Lab2-PhanII-Bai2.5.runtimeconfig.json
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\bin\Debug\net8.0\Lab2-PhanII-Bai2.5.dll
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\bin\Debug\net8.0\Lab2-PhanII-Bai2.5.pdb
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\Lab2-PhanII-Bai2.5.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\Lab2-PhanII-Bai2.5.AssemblyInfoInputs.cache
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\Lab2-PhanII-Bai2.5.AssemblyInfo.cs
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\Lab2-PhanII-Bai2.5.csproj.CoreCompileInputs.cache
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\Lab2-PhanII-Bai2.5.sourcelink.json
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\Lab2-PhanII-Bai2.5.dll
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\refint\Lab2-PhanII-Bai2.5.dll
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\Lab2-PhanII-Bai2.5.pdb
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\Lab2-PhanII-Bai2.5.genruntimeconfig.cache
+D:\DEV2409GH-T2356\NguyenVietChien-dev2409gh-t2356\C#\Lab2-PhanII-Bai2.5\Lab2-PhanII-Bai2.5\obj\Debug\net8.0\ref\Lab2-PhanII-Bai2.5.dll
