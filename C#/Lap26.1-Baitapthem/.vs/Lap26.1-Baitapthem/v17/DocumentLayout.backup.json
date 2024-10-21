@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lap26.1-Baitapthem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEC4860-7EEE-40B2-A84D-67263B634873}|Lap26.1-Baitapthem\\Lap26.1-Baitapthem.csproj|d:\\dev2409gh-t2356\\nguyenvietchien-dev2409gh-t2356\\c#\\lap26.1-baitapthem\\lap26.1-baitapthem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEC4860-7EEE-40B2-A84D-67263B634873}|Lap26.1-Baitapthem\\Lap26.1-Baitapthem.csproj|solutionrelative:lap26.1-baitapthem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lap26.1-Baitapthem\\Lap26.1-Baitapthem\\Program.cs",
+              "RelativeDocumentMoniker": "Lap26.1-Baitapthem\\Program.cs",
+              "ToolTip": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lap26.1-Baitapthem\\Lap26.1-Baitapthem\\Program.cs",
+              "RelativeToolTip": "Lap26.1-Baitapthem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T04:33:57.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

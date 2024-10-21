@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lab5-Bai3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1690243A-A9C4-4EC3-8AD6-B32DFAD1D625}|Lab5-Bai3\\Lab5-Bai3.csproj|d:\\dev2409gh-t2356\\nguyenvietchien-dev2409gh-t2356\\c#\\lab5-bai3\\lab5-bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1690243A-A9C4-4EC3-8AD6-B32DFAD1D625}|Lab5-Bai3\\Lab5-Bai3.csproj|solutionrelative:lab5-bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1690243A-A9C4-4EC3-8AD6-B32DFAD1D625}|Lab5-Bai3\\Lab5-Bai3.csproj|d:\\dev2409gh-t2356\\nguyenvietchien-dev2409gh-t2356\\c#\\lab5-bai3\\lab5-bai3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1690243A-A9C4-4EC3-8AD6-B32DFAD1D625}|Lab5-Bai3\\Lab5-Bai3.csproj|solutionrelative:lab5-bai3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lab5-Bai3\\Lab5-Bai3\\Student.cs",
+              "RelativeDocumentMoniker": "Lab5-Bai3\\Student.cs",
+              "ToolTip": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lab5-Bai3\\Lab5-Bai3\\Student.cs",
+              "RelativeToolTip": "Lab5-Bai3\\Student.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:44:26.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lab5-Bai3\\Lab5-Bai3\\Program.cs",
+              "RelativeDocumentMoniker": "Lab5-Bai3\\Program.cs",
+              "ToolTip": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\C#\\Lab5-Bai3\\Lab5-Bai3\\Program.cs",
+              "RelativeToolTip": "Lab5-Bai3\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:44:01.006Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

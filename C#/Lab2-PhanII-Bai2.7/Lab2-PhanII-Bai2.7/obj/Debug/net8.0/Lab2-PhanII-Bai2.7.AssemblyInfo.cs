@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab2-PhanII-Bai2.7")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0895866f3c65c039e1c447ba43f401c3e5b36dd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23e9fd1bb4600e92796ec2aede35b0a67f90d0cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab2-PhanII-Bai2.7")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab2-PhanII-Bai2.7")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
