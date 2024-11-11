@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\Project\\Lesson01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0249816-E797-4DEA-B51A-99D6C3C49F7B}|Lesson01\\Lesson01.csproj|d:\\dev2409gh-t2356\\nguyenvietchien-dev2409gh-t2356\\project\\lesson01\\lesson01\\lesson01.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A0249816-E797-4DEA-B51A-99D6C3C49F7B}|Lesson01\\Lesson01.csproj|solutionrelative:lesson01\\lesson01.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lesson01",
+              "DocumentMoniker": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\Project\\Lesson01\\Lesson01\\Lesson01.csproj",
+              "RelativeDocumentMoniker": "Lesson01\\Lesson01.csproj",
+              "ToolTip": "D:\\DEV2409GH-T2356\\NguyenVietChien-dev2409gh-t2356\\Project\\Lesson01\\Lesson01\\Lesson01.csproj",
+              "RelativeToolTip": "Lesson01\\Lesson01.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T01:43:08.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
