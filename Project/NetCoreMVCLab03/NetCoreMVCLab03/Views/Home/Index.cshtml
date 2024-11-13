@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<partial name="Banner" />
+<hr/>
+<button id="loadAjax" class="btn btn-sm btn-primary"> Ấn Vào đây </button>
+<hr />
+<div id="data-from-ajax" class="row">loading data ....</div>
+@section Scripts{
+    <script>
+        $('#loadAjax').click(function(){
+            $('#data-from-ajax').load("/Book/PopularBook");
+        })
+    </script>
+    }
+<hr/>
+<h2>Popular Book  Load từ BookComponent</h2>
+@await Component.InvokeAsync("Book")
