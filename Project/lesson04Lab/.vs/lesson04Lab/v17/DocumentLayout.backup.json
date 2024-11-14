@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\An\\source\\repos\\lesson04Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|c:\\users\\an\\source\\repos\\lesson04lab\\lesson04lab\\views\\people\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|solutionrelative:lesson04lab\\views\\people\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|c:\\users\\an\\source\\repos\\lesson04lab\\lesson04lab\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|solutionrelative:lesson04lab\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|c:\\users\\an\\source\\repos\\lesson04lab\\lesson04lab\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|solutionrelative:lesson04lab\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|c:\\users\\an\\source\\repos\\lesson04lab\\lesson04lab\\views\\people\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|solutionrelative:lesson04lab\\views\\people\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|c:\\users\\an\\source\\repos\\lesson04lab\\lesson04lab\\models\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|solutionrelative:lesson04lab\\models\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|c:\\users\\an\\source\\repos\\lesson04lab\\lesson04lab\\views\\people\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6784B31B-8A2A-43B5-A236-D9AE9F833A9D}|lesson04Lab\\lesson04Lab.csproj|solutionrelative:lesson04lab\\views\\people\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Views\\People\\Delete.cshtml",
+              "RelativeDocumentMoniker": "lesson04Lab\\Views\\People\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Views\\People\\Delete.cshtml",
+              "RelativeToolTip": "lesson04Lab\\Views\\People\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T03:20:05.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Views\\People\\Edit.cshtml",
+              "RelativeDocumentMoniker": "lesson04Lab\\Views\\People\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Views\\People\\Edit.cshtml",
+              "RelativeToolTip": "lesson04Lab\\Views\\People\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:57:49.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Views\\People\\Details.cshtml",
+              "RelativeDocumentMoniker": "lesson04Lab\\Views\\People\\Details.cshtml",
+              "ToolTip": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Views\\People\\Details.cshtml",
+              "RelativeToolTip": "lesson04Lab\\Views\\People\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:31:26.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Views\\People\\Create.cshtml",
+              "RelativeDocumentMoniker": "lesson04Lab\\Views\\People\\Create.cshtml",
+              "ToolTip": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Views\\People\\Create.cshtml",
+              "RelativeToolTip": "lesson04Lab\\Views\\People\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:30:23.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PeopleController.cs",
+              "DocumentMoniker": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Controllers\\PeopleController.cs",
+              "RelativeDocumentMoniker": "lesson04Lab\\Controllers\\PeopleController.cs",
+              "ToolTip": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Controllers\\PeopleController.cs",
+              "RelativeToolTip": "lesson04Lab\\Controllers\\PeopleController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:59:35.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "People.cs",
+              "DocumentMoniker": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Models\\People.cs",
+              "RelativeDocumentMoniker": "lesson04Lab\\Models\\People.cs",
+              "ToolTip": "C:\\Users\\An\\source\\repos\\lesson04Lab\\lesson04Lab\\Models\\People.cs",
+              "RelativeToolTip": "lesson04Lab\\Models\\People.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:39:54.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

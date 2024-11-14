@@ -87,8 +87,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\ViewComponents\\BookViewComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:03:33.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:03:33.693Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwBYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T03:23:02.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T03:23:02.376Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\Views\\Book\\Create.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T03:04:24.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T03:04:24.032Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\Views\\Shared\\Banner.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T03:26:40.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T03:26:40.767Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\Views\\Book\\PopularBook.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T03:41:50.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T03:41:50.496Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\Models\\Book.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T01:47:44.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T01:47:44.257Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\Controllers\\BookController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T02:17:40.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T02:17:40.755Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\Views\\Book\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T03:10:09.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T03:10:09.23Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T02:35:55.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T02:35:55.788Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "NetCoreMVCLab03\\Views\\Book\\Index.cshtml",
               "ViewState": "AgIAACAAAAAAAAAAAAAYwDAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T02:23:12.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T02:23:12.582Z"
             }
           ]
         }
