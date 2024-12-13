@@ -1,0 +1,33 @@
+﻿@model xuongmocdev.Models.AdminUser
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>Tài khoản</th>
+            <th>Tên</th>
+            <th>Điện thoại</th>
+            <th>Email</th>
+            <th>Trạng thái</th>
+            <th>Ngày tạo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Account</td>
+            <td>@Model.Name</td>
+            <td>@Model.Phone</td>
+            <td>@Model.Email</td>
+            <td>
+                @if (Model.TrangThai == 1)
+                {
+                    <span style="color: green;">Đang hoạt động</span>
+                }
+                else
+                {
+                    <span style="color: red;">Đang khóa</span>
+                }
+            </td>
+            <td>@Model.NgayTao</td>
+        </tr>
+    </tbody>
+</table>

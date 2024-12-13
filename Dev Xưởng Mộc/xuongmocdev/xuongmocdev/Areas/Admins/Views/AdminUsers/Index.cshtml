@@ -1,0 +1,158 @@
+﻿@model IEnumerable<xuongmocdev.Models.AdminUser>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1 class="text-center my-4">Admin Users</h1>
+
+    
+<form method="get" asp-action="Index" class="mb-12">
+    <div class="form-inline d-flex align-items-center ">
+        <a style="margin-right:20ppx" class="btn btn-success" asp-action="Create">
+            <i class="fas fa-plus"></i> Thêm Mới
+        </a>
+        <input type="text" id="searchString" name="searchString"
+               value="@ViewData["SearchString"]" class="form-control me-2"
+               placeholder="Nhập tên hoặc tài khoản cần tìm">
+        <button type="submit" class="btn btn-primary">Tìm</button> 
+    </div>
+    
+</form>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Account)</th>
+            
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Phone)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th>@Html.DisplayNameFor(model => model.TrangThai)</th>
+            <th class="text-truncate">@Html.DisplayNameFor(model => model.NgayTao)</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Account)</td>
+               
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                <td style="width="150px";">@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>
+                    @if (item.TrangThai == 1)
+                    {
+                        <span style="color: green;">Đang hoạt động</span>
+                    }
+                    else
+                    {
+                        <span style="color: red;">Đang khóa</span>
+                    }
+                </td>
+                <td class="text-truncate">@Html.DisplayFor(modelItem => item.NgayTao)</td>
+
+
+                <td style="display:flex">
+                    <a style="margin-right:10px" class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                    <a style="margin-right:10px" class="btn btn-info btn-sm" href="javascript:void(0);" onclick="loadDetails(@item.Id)">
+                        <i class="fas fa-eye"></i>
+                    </a>
+                    <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="delete-form">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger btn-sm">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </form>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="margin-left:350px">
+        <div class="modal-content" style="width:800px">
+            <div class="modal-header">
+                <h5 class="modal-title" id="detailsModalLabel">Chi Tiết Người Dùng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="detailsContainer">
+                <!-- Dữ liệu chi tiết sẽ được tải ở đây -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function loadDetails(id) {
+        $.ajax({
+            url: '@Url.Action("Details", "AdminUsers")/' + id, // Gọi Action Details của Controller AdminUser
+            type: 'GET',
+            success: function (response) {
+                // Đặt dữ liệu trả về vào div có id="detailsContainer"
+                $('#detailsContainer').html(response);
+                // Hiển thị modal
+                $('#detailsModal').modal('show');
+            },
+            error: function () {
+                alert("Có lỗi xảy ra khi tải dữ liệu.");
+            }
+        });
+    }
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const deleteForms = document.querySelectorAll('.delete-form');
+
+        deleteForms.forEach(form => {
+            form.addEventListener('submit', function (event) {
+                const isConfirmed = confirm('Bạn có chắc chắn muốn xóa không?');
+                if (!isConfirmed) {
+                    event.preventDefault(); // Ngăn form gửi yêu cầu nếu không xác nhận
+                }
+            });
+        });
+    });
+
+</script>
+<style>
+    .text-truncate {
+        white-space: nowrap; /* Không cho xuống dòng */
+        overflow: hidden; /* Ẩn phần dư thừa */
+        text-overflow: ellipsis; /* Thêm dấu "..." khi vượt quá kích thước */
+        max-width: 150px; /* Đặt chiều rộng tối đa */
+    }
+
+    .form-inline {
+        display: flex;
+        gap: 10px; /* Khoảng cách giữa các phần tử */
+    }
+
+    .form-control {
+        /* flex-grow: 1; */ /* Làm cho ô tìm kiếm chiếm không gian còn lại */
+    }
+
+    .me-2 {
+        margin-right: 0.5rem; /* Khoảng cách giữa các phần tử */
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .align-items-center {
+        align-items: center; /* Căn giữa theo chiều dọc */
+        margin-bottom:5px;
+    }
+
+</style>

@@ -1,0 +1,110 @@
+﻿@* @model X.PagedList.IPagedList<xuongmocdev.Models.Category>
+@using X.PagedList.Mvc.Core; *@
+@model IEnumerable<xuongmocdev.Models.Category>
+@{
+    ViewData["Title"] = "Danh mục sản phẩm";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="row">
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Lesson07.Assignment.styles.css" asp-append-version="true" />
+        <!-- Google Font: Source Sans Pro -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="~/plugins/fontawesome-free/css/all.min.css">
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <!-- Tempusdominus Bootstrap 4 -->
+        <link rel="stylesheet" href="~/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+        <!-- iCheck -->
+        <link rel="stylesheet" href="~/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+        <!-- JQVMap -->
+        <link rel="stylesheet" href="~/plugins/jqvmap/jqvmap.min.css">
+        <!-- Theme style -->
+        <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
+        <!-- overlayScrollbars -->
+        <link rel="stylesheet" href="~/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+        <!-- Daterange picker -->
+        <link rel="stylesheet" href="~/plugins/daterangepicker/daterangepicker.css">
+        <!-- summernote -->
+        <link rel="stylesheet" href="~/plugins/summernote/summernote-bs4.min.css">
+    </head>
+    <form action="" method="get" class="form-inline">
+        <div class="form-group">
+            <label class="sr-only" for="keyword">Tìm tên theo loại</label>
+            <input class="form-control" name="name" id="keyword" placeholder="Nhập tên cần tìm">
+        </div>
+        <button tyle="submit" class="btn btn-defaunt mr-1"><i class="fas fa-search"></i></button>
+        <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i>Thêm mới</a>
+    </form>
+    <table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên danh mục
+            </th>
+            <th>
+                Ngày tạo
+            </th>
+            <th>
+                Ngày sửa
+            </th>
+            <th>
+                Người tạo
+            </th>
+            <th>
+                Người sửa
+            </th>
+            
+            <th>
+                Trạng thái
+            </th>
+            
+            <th>Tác vụ</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdminCreated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdminUpdated)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                 <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Sửa</a>
+                 <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Xem chi tiết</a>
+                 <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Xoá</a>
+            </td>
+        </tr>
+            }
+        </tbody>
+    </table>
+    <hr />
+    @* @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }), new
+            X.PagedList.Web.Common.PagedListRenderOptions
+{
+
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" }
+}) *@
+</div>
+</html>

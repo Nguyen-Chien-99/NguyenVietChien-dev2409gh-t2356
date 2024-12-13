@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\xuongmocdev.props" />
+</Project>

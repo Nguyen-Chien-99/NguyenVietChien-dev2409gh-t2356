@@ -1,0 +1,145 @@
+﻿@model xuongmocdev.Models.AdminUser
+
+@{
+    ViewData["Title"] = "Thêm Mới Người Dùng";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Thêm Mới Người Dùng</h1>
+
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Thông Tin Người Dùng</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="row">
+                    <!-- Cột 1 -->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Account" class="control-label">Tài Khoản</label>
+                            <input asp-for="Account" class="form-control" />
+                            <span asp-validation-for="Account" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Password" class="control-label">Mật Khẩu</label>
+                            <input asp-for="Password" class="form-control" type="password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="MaNhanSu" class="control-label">Mã Nhân Sự</label>
+                            <input asp-for="MaNhanSu" class="form-control" />
+                            <span asp-validation-for="MaNhanSu" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Name" class="control-label">Tên</label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Phone" class="control-label">Số Điện Thoại</label>
+                            <input asp-for="Phone" class="form-control" />
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label">Email</label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Avatar" class="control-label">Ảnh Đại Diện</label>
+                            <input asp-for="Avatar" class="form-control" />
+                            <span asp-validation-for="Avatar" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="IdPhongBan" class="control-label">Mã Phòng Ban</label>
+                            <input asp-for="IdPhongBan" class="form-control" />
+                            <span asp-validation-for="IdPhongBan" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="NgayTao" class="control-label">Ngày Tạo</label>
+                            <input asp-for="NgayTao" class="form-control" />
+                            <span asp-validation-for="NgayTao" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Cột 2 -->
+                    <div class="col-md-6">
+                        
+
+                        <div class="form-group">
+                            <label asp-for="NguoiTao" class="control-label">Người Tạo</label>
+                            <input asp-for="NguoiTao" class="form-control" />
+                            <input type="hidden" name="NgayTao" value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss")" />
+                            <span asp-validation-for="NguoiTao" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="NgayCapNhat" class="control-label">Ngày Cập Nhật</label>
+                            <input asp-for="NgayCapNhat" class="form-control" />
+                            <span asp-validation-for="NgayCapNhat" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="NguoiCapNhat" class="control-label">Người Cập Nhật</label>
+                            <input asp-for="NguoiCapNhat" class="form-control" />
+                            <span asp-validation-for="NguoiCapNhat" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="SessionToken" class="control-label">Session Token</label>
+                            <input asp-for="SessionToken" class="form-control" />
+                            <span asp-validation-for="SessionToken" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Salt" class="control-label">Salt</label>
+                            <input asp-for="Salt" class="form-control" />
+                            <span asp-validation-for="Salt" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="IsAdmin" class="control-label">Quyền Admin</label>
+                            <input asp-for="IsAdmin" class="form-control" />
+                            <span asp-validation-for="IsAdmin" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="TrangThai" class="control-label">Trạng Thái</label>
+                            <input asp-for="TrangThai" class="form-control" />
+                            <span asp-validation-for="TrangThai" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="IsDelete" class="control-label">Đã Xóa</label>
+                            <input asp-for="IsDelete" class="form-control" />
+                            <span asp-validation-for="IsDelete" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group text-center">
+                    <input type="submit" value="Lưu" class="btn btn-success" /> <a asp-action="Index" style="margin-left:20px" class="btn btn-secondary">Quay Lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
